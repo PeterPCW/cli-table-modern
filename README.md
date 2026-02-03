@@ -2,7 +2,7 @@
 
 Modern CLI table library for Node.js. Type-safe, zero-dependency, ESM-native revival of cli-table2.
 
-[![npm version](https://img.shields.io/npm/v/clie-table-modern.svg)](https://www.npmjs.com/package/cli-table-modern)
+[![npm version](https://img.shields.io/npm/v/cli-table-modern.svg)](https://www.npmjs.com/package/cli-table-modern)
 [![npm downloads](https://img.shields.io/npm/dm/cli-table-modern.svg)](https://www.npmjs.com/package/cli-table-modern)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
