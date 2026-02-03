@@ -2,6 +2,10 @@
 
 Modern CLI table library for Node.js. Type-safe, zero-dependency, ESM-native revival of cli-table2.
 
+[![npm version](https://img.shields.io/npm/v/clie-table-modern.svg)](https://www.npmjs.com/package/cli-table-modern)
+[![npm downloads](https://img.shields.io/npm/dm/cli-table-modern.svg)](https://www.npmjs.com/package/cli-table-modern)
+[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 ## Features
 
 - **TypeScript First** - Full type safety with strict TypeScript support
@@ -144,13 +148,13 @@ const doubleTable = createTable(data, { chars: STYLES.double })
 **Style previews:**
 
 ```
-ASCII:    +----+------+-------+       MARKDOWN: |----|----|----|
-          | ID | Name | Value |                | ID | Name | Value |
-          +----+------+-------+                |----|----|----|
-          | 1  | Foo  | 100   |                | 1  | Foo  | 100   |
-          +----+------+-------+                +----+----+-------+
+ASCII:    +----+------+-------+       MARKDOWN: |----|------|-------|
+          | ID | Name | Value |                 | ID | Name | Value |
+          +----+------+-------+                 |----|------|-------|
+          | 1  | Foo  | 100   |                 | 1  | Foo  | 100   |
+          +----+------+-------+                 +----+----+---------+
 
-ROUNDED:  ╭────┬─────┬──────╮       DOUBLE:   ╔════╦═════╦══════╗
+ROUNDED:  ╭────┬─────┬──────╮       DOUBLE:  ╔════╦═════╦══════╗
           │ ID │ Name│ Value│                ║ ID ║ Name║ Value║
           ├────┼─────┼──────┤                ╠════╬═════╬══════╣
           │ 1  │ Foo │ 100  │                ║ 1  ║ Foo ║ 100  ║
